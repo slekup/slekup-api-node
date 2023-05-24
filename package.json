@@ -28,6 +28,7 @@
   "homepage": "https://github.com/slekup/slekup-api-node#readme",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
+    "husky": "^8.0.3",
     "tsconfig-paths": "^4.2.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
