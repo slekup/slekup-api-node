@@ -1,6 +1,6 @@
 {
   "name": "slekup-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JavaScript library for interacting with Slekup API",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
