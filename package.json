@@ -1,0 +1,34 @@
+{
+  "name": "slekup-api",
+  "version": "0.0.1",
+  "description": "A JavaScript library for interacting with Slekup API",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --minify --clean --sourcemap",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slekup/slekup-api-node.git"
+  },
+  "keywords": [
+    "slekup-api",
+    "slekup",
+    "nodejs",
+    "bot",
+    "application"
+  ],
+  "author": "Slekup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slekup/slekup-api-node/issues"
+  },
+  "homepage": "https://github.com/slekup/slekup-api-node#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
